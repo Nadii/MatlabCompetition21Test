@@ -8,7 +8,7 @@ if ~exist(output_directory, 'dir')
 end
 
 disp('Running training code...')
-team_training_code(input_directory,output_directory); %team_training_code>train ECG leads classifier
+team_training(input_directory,output_directory); %team_training_code>train ECG leads classifier
 
 disp('Done.')
 end
