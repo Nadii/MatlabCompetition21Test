@@ -70,7 +70,7 @@ for i = 1:num_files
     [Used_leads, Used_leads_idx] = get_leads(header_data);
 
     %% Extract features
-    tmp_features = get_features(data,header_data);
+    tmp_features = get_feature(data,header_data);
 
     %% Apply model to recording.
     if length(Used_leads)==12
